@@ -7,7 +7,7 @@ nav-url: /docs/
 gh_release: v2.0.0
 ---
 
-Did you ever wanted to use a dropdown for your page navigation? It never was that easy! Starting with Pico 2.0 you can access a page's tree node using the `tree_node` element of the page data array (e.g. `{% raw %}{{ current_page.tree_node }}{% endraw %}`). But first you've to understand how Pico's page tree is built up. A picture is worth a thousand words, so before we start explaining the details here's a simple example of how a page tree looks in practice. Just think of the following Markdown files in your `content` directory:
+Have you ever wanted to use a dropdown for your page navigation? It never was that easy! Starting with Pico 2.0 you can access a page's tree node using the `tree_node` element of the page data array (e.g. `{% raw %}{{ current_page.tree_node }}{% endraw %}`). But first you've to understand how Pico's page tree is built up. A picture is worth a thousand words, so before we start explaining the details here's a simple example of how a page tree looks in practice. Just think of the following Markdown files in your `content` directory:
 
 ```
 content/
